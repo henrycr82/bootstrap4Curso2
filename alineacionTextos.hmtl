@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Curso Bootstrap a</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+	<p class="">Alineación de textos</p>
+	<br>
+	<p class="text-justify"><samp class="font-weight-bold">Texto Justificado</samp> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quam nihil nulla nisi consequatur eligendi eum error, modi nostrum alias nemo quisquam ex, veniam.</p>
+	<br>
+	<p class="text-left"><samp class="font-weight-bold">Texto a la Izquierda</samp> Lorem ipsum dolor sit amet.</p>
+	<br>
+	<p class="text-center"><samp class="font-weight-bold">Texto Centrado</samp> Lorem ipsum dolor sit amet.</p>
+	<br>
+	<p class="text-right"><samp class="font-weight-bold">Texto a la Derecha</samp> Lorem ipsum dolor sit amet.</p>
+	<hr>
+	<!-- Tamaños en Bootstrap 4 sm md lg xl-->
+	<!-- De acuerdo al tamaño de la pantalla alinéo el texto a la izquierda-->
+	<p class="text-sm-left">A partir de tamaño SM a la izquierda</p>
+	<p class="text-md-left">A partir de tamaño MD a la izquierda</p>
+	<p class="text-lg-left">A partir de tamaño LG a la izquierda</p>
+	<p class="text-xl-left">A partir de tamaño XL a la izquierda</p>
+	<br><br>
+	<!-- De acuerdo al tamaño de la pantalla centro el texto-->
+	<p class="text-sm-center">A partir de tamaño SM Centrado</p>
+	<p class="text-md-center">A partir de tamaño MD Centrado</p>
+	<p class="text-lg-center">A partir de tamaño LG Centrado</p>
+	<p class="text-xl-center">A partir de tamaño XL Centrado</p>
+	<br><br>
+	<!-- De acuerdo al tamaño de la pantalla alinéo el texto a la derecha-->
+	<p class="text-sm-right">A partir de tamaño SM a la derecha</p>
+	<p class="text-md-right">A partir de tamaño MD a la derecha</p>
+	<p class="text-lg-right">A partir de tamaño LG a la derecha</p>
+	<p class="text-xl-right">A partir de tamaño XL a la derecha</p>
+	<br><br>
+	<spam class="align-baesline">default  </spam><!--align-baesline aliación por defecto-->
+	<spam class="align-bottom">abajo  </spam><!--align-bottom aliación hacia abajo-->
+	<spam class="align-middle">medio  </spam><!--align-middle aliación hacia el medio-->
+	<spam class="align-top">arriba</spam><!-- align-top aliación hacia arriba -->
+	<br>
+	<spam class="align-text-bottom">abajo  </spam><!--align-bottom aliación hacia abajo-->
+	<spam class="align-text-top">arriba</spam><!-- align-top aliación hacia arriba -->
+	<br><br>
+	<!-- d-inline es una abreviación de display: inline Para ver los elementos en linea
+
+		Para elementos en bloque d-block
+
+		d-inline-block el elemento tendrá un comportamiento mezcla entre los dos anteriores.
+	-->
+	<h1 class="bg-success d-inline">Hello</h1>
+	<h1 class="bg-success d-inline">Hello</h1>
+	<br><br>
+	<span class="bg-primary">Elemento en linea</span>
+	<span class="bg-primary d-block">Elemento en bloque</span>
+	<br><br>
+	<div class="d-inline-block bg-success">
+		<h1>Hello world</h1>
+		<span>Hello</span>
+	</div>
+	<div class="d-inline-block bg-success">
+		<h1>Hello world</h1>
+		<span>Hello</span>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
