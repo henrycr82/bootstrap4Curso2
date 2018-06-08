@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Curso Bootstrap a</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+
+	<!--
+				
+		Otra forma de hacerlo. puedo usar el min-width o el max-width para agregar el background del body de nuestra página.
+		@media(max-width: 576px){
+			body{
+				background: blue;
+			}
+		}
+	 -->
+	<style media="screen">
+		@media(min-width: 576px){
+			body{
+				background: red;
+			}
+		}
+
+		@media(min-width: 768px){
+			body{
+				background: blue;
+			}
+		}
+		
+		@media(min-width: 992px){
+			body{
+				background: green;
+			}
+		}
+		
+		@media(min-width: 1200px){
+			body{
+				background: yellow;
+			}
+		}
+
+
+	</style>
+	
+
+
+
+</head>
+<body>
+	<p class="text-justify font-weight-bold">Breakpoints</p>
+	<!-- Breakpoints es una manera en la cual bootstrap a partir de un tamaño de pantalla nosotros podemos cambiar los estilos de ccs, y esto lo podemos hacer a través de  media queries (son útiles cuando desea modificar su sitio o aplicación dependiendo del tipo general de un dispositivo (como imprimir frente a pantalla) o características y parámetros específicos (como la resolución de pantalla o el ancho de la ventana del navegador).) -->
+	<br>
+
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
